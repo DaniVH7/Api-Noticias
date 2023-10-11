@@ -1,0 +1,24 @@
+.news-card {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    width: calc(50% - 20px);
+    box-sizing: border-box;
+    align-items: center; 
+    vertical-align: top; 
+
+}
+.news-image {
+    max-width: 20%;
+    margin-right: 10px; 
+
+}
+
+.news-text {
+    flex: 1;
+}
+
+.news-card > div {
+    margin: 0;
+}
